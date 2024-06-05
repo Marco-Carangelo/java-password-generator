@@ -17,7 +17,25 @@ public class PasswordGenerator {
 		short userYear;
 		byte userMonth,userDay;
 		
+	//Assegnazione di un valore acquisito da tastiera
+		
+		System.out.println("Inserisci il tuo nome: ");
+		userName = scanner.nextLine();
+		System.out.println("Inserisci il tuo cognome: ");
+		userLastName = scanner.nextLine();
+		System.out.println("Inserisci il tuo colore preferito: ");
+		userColor = scanner.nextLine();
+		System.out.println("Inserisci la tua data di nascita in formato numerico");
+		System.out.print("Giorno: ");
+		userDay = scanner.nextByte();
+		System.out.print("Mese: ");
+		userMonth = scanner.nextByte();
+		System.out.print("Anno: ");
+		userYear = scanner.nextShort();
 	
+		
+		
+		
 		
 		
 		
