@@ -9,6 +9,16 @@ public class PasswordGenerator {
 		//Inizializziamo un'istanza della classe Scanner per poter gestire il flusso di dati in input
 		Scanner scanner = new Scanner(System.in);
 		
+		//Dichiarazione delle variabili
+		
+		String userName;
+		String userLastName;
+		String userColor;
+		short userYear;
+		byte userMonth,userDay;
+		
+	
+		
 		
 		
 		
