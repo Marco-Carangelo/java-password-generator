@@ -32,6 +32,11 @@ public class PasswordGenerator {
 		userMonth = scanner.nextByte();
 		System.out.print("Anno: ");
 		userYear = scanner.nextShort();
+		
+	//Stampiamo il risultato calcolando la somma tra giorno,mese ed anno di nascita direttamente negli argomenti del metodo printf()
+		
+		System.out.print("La password generata è: ");
+		System.out.printf("%s-%s-%s-%d%n",userName,userLastName,userColor, (short) (userDay+userMonth+userYear) );
 	
 		
 		
